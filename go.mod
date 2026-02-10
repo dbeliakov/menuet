@@ -1,4 +1,4 @@
-module github.com/caseymrm/menuet
+module github.com/dbeliakov/menuet
 
 go 1.13
 

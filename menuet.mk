@@ -3,7 +3,7 @@
 # For example:
 #
 #   APP=Hello World
-#   include $(GOPATH)/src/github.com/caseymrm/menuet/menuet.mk
+#   include $(GOPATH)/src/github.com/dbeliakov/menuet/menuet.mk
 #
 # Optional features:
 # 

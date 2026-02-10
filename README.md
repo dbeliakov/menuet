@@ -8,11 +8,11 @@ Under active development. API still changing rapidly.
 ## Installation
 menuet requires OS X.
 
-`go get github.com/caseymrm/menuet`
+`go get github.com/dbeliakov/menuet`
 
 ## Documentation
 
-https://godoc.org/github.com/caseymrm/menuet
+https://godoc.org/github.com/dbeliakov/menuet
 
 ## Apps built with Menuet
 
@@ -33,7 +33,7 @@ https://godoc.org/github.com/caseymrm/menuet
 
 <img src="https://github.com/unkrich/hackernews-menuet/blob/master/static/screenshot.png" width="50%"/>
 
-## [Hello World](https://github.com/caseymrm/menuet/tree/master/cmd/helloworld)
+## [Hello World](https://github.com/dbeliakov/menuet/tree/master/cmd/helloworld)
 
 ```go
 package main
@@ -41,7 +41,7 @@ package main
 import (
 	"time"
 
-	"github.com/caseymrm/menuet"
+	"github.com/dbeliakov/menuet"
 )
 
 func helloClock() {
@@ -60,13 +60,13 @@ func main() {
 
 ```
 
-![Output](https://github.com/caseymrm/menuet/raw/master/static/helloworld.gif)
+![Output](https://github.com/dbeliakov/menuet/raw/master/static/helloworld.gif)
 
-## [Catalog](https://github.com/caseymrm/menuet/tree/master/cmd/catalog)
+## [Catalog](https://github.com/dbeliakov/menuet/tree/master/cmd/catalog)
 
 The catalog app is useful for trying many of the possible combinations of features.
 
-<img src="https://github.com/caseymrm/menuet/raw/master/static/catalog.png" width="50%"/>
+<img src="https://github.com/dbeliakov/menuet/raw/master/static/catalog.png" width="50%"/>
 
 ## Advanced Features
 
@@ -83,7 +83,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/caseymrm/menuet"
+	"github.com/dbeliakov/menuet"
 )
 
 func temperature(woeid string) (temp, unit, text string) {
@@ -275,7 +275,7 @@ func main() {
 }
 ```
 
-![Output](https://github.com/caseymrm/menuet/raw/master/static/weather.png)
+![Output](https://github.com/dbeliakov/menuet/raw/master/static/weather.png)
 
 ## License
 
